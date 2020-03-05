@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TechHuddle\\Documents\\GitHub\\Kalenska_TechHuddle\\DataTypes\\Lesson2\\Lesson2.csproj": {}
+    "C:\\Users\\TechHuddle\\Desktop\\Homework\\Lesson2\\Lesson2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TechHuddle\\Documents\\GitHub\\Kalenska_TechHuddle\\DataTypes\\Lesson2\\Lesson2.csproj": {
+    "C:\\Users\\TechHuddle\\Desktop\\Homework\\Lesson2\\Lesson2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TechHuddle\\Documents\\GitHub\\Kalenska_TechHuddle\\DataTypes\\Lesson2\\Lesson2.csproj",
+        "projectUniqueName": "C:\\Users\\TechHuddle\\Desktop\\Homework\\Lesson2\\Lesson2.csproj",
         "projectName": "Lesson2",
-        "projectPath": "C:\\Users\\TechHuddle\\Documents\\GitHub\\Kalenska_TechHuddle\\DataTypes\\Lesson2\\Lesson2.csproj",
+        "projectPath": "C:\\Users\\TechHuddle\\Desktop\\Homework\\Lesson2\\Lesson2.csproj",
         "packagesPath": "C:\\Users\\TechHuddle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TechHuddle\\Documents\\GitHub\\Kalenska_TechHuddle\\DataTypes\\Lesson2\\obj\\",
+        "outputPath": "C:\\Users\\TechHuddle\\Desktop\\Homework\\Lesson2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TechHuddle\\AppData\\Roaming\\NuGet\\NuGet.Config",

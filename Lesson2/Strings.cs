@@ -53,14 +53,13 @@ namespace Lesson2
         {
             while (true)
             {
-
                 {
                     Console.WriteLine("Input any word or sentense");
                     string inputString = (Console.ReadLine());
 
-                    string resultString = string.Join(" ", inputString.Split(' ')
-                        .Select(x => new string(x.Reverse().ToArray())));
+                    //Console.WriteLine(String.Join("", Console.ReadLine().ToCharArray().Reverse()));
 
+                    string resultString = string.Join("", inputString.Reverse());
                     Console.WriteLine(resultString);
                 }
             }
@@ -96,7 +95,7 @@ namespace Lesson2
 
                     if (char.IsLetter(inputString))
                     {
-                        Console.WriteLine("It's a lowercase letter.");
+                        Console.WriteLine("It's a lowercase letter.: " + char.ToLower(inputString));
                     }
                     else if (char.IsDigit(inputString))
                     {
@@ -106,8 +105,42 @@ namespace Lesson2
                     {
                         Console.WriteLine("It's a symbol.");
                     }
+
+                    /*char character = char.Parse(Console.ReadLine());
+                    char lowerCharacter = char.ToLower(character);
+
+                    if (char.IsLetter(lowerCharacter))
+                    {
+                        Console.WriteLine($"{lowerCharacter} is a lowercase letter");
+                    }
+                    */
                 }
             }
         }
+
+        public static void Excercise6()
+        //Write a C# Sharp program that takes a decimal number as input and displays its equivalent in binary form.
+        {
+            while (true)
+            {
+                string answer;
+                string result;
+
+                Console.Write("Input a Number : ");
+                answer = Console.ReadLine();
+
+                int num = Convert.ToInt32(answer);
+                result = "";
+                while (num > 1)
+                {
+                    int remainder = num % 2;
+                    result = Convert.ToString(remainder) + result;
+                    num /= 2;
+                }
+                result = Convert.ToString(num) + result;
+                Console.WriteLine("Binary: {0}", result);
+            }
+        }
     }
+               
 }

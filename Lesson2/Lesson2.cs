@@ -6,6 +6,7 @@ namespace Lesson2
     {
         static void Main(string[] args)
         {
+
             //Calculations.Excercise1();
             //Calculations.Excercise2();
             //Calculations.Excercise3();
@@ -32,8 +33,17 @@ namespace Lesson2
             //Strings.Excercise2();
             //Strings.Excercise3();
             //Strings.Excercise4();
-            Strings.Excercise5();
-        
+            //Strings.Excercise5();
+            //Strings.Excercise6();
+
+            //DateTime.Excercise1();
+            //DateTime.Excercise();
+            //DateTime.Excercise2();
+            //DateTime.Excercise3();
+            //DateTime.Excercise4();
+            //DateTime.Excercise5();
+            //DateTime.Excercise6();
+            DateTime.Excercise7();
         }
 
     }

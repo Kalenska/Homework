@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TechHuddle\\Documents\\GitHub\\Kalenska_TechHuddle\\DataTypes\\DataTypes\\Lesson1.csproj",
+      "projectUniqueName": "C:\\Users\\TechHuddle\\Desktop\\Homework\\DataTypes\\Lesson1.csproj",
       "projectName": "Lesson1",
-      "projectPath": "C:\\Users\\TechHuddle\\Documents\\GitHub\\Kalenska_TechHuddle\\DataTypes\\DataTypes\\Lesson1.csproj",
+      "projectPath": "C:\\Users\\TechHuddle\\Desktop\\Homework\\DataTypes\\Lesson1.csproj",
       "packagesPath": "C:\\Users\\TechHuddle\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TechHuddle\\Documents\\GitHub\\Kalenska_TechHuddle\\DataTypes\\DataTypes\\obj\\",
+      "outputPath": "C:\\Users\\TechHuddle\\Desktop\\Homework\\DataTypes\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\TechHuddle\\AppData\\Roaming\\NuGet\\NuGet.Config",

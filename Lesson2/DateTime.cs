@@ -74,32 +74,10 @@ namespace Lesson2
                 else
                 {
                     Console.WriteLine("Leap year: No");
-
                 }
 
             }
         }
-
-
-        public static void Excercise()
-        //another solution
-        {
-            while (true)
-            {
-                Console.WriteLine("Enter an year to check if it is a Leap year.");
-                int year = Convert.ToInt32(Console.ReadLine());
-
-                if (year % 4 == 0)
-                {
-                    Console.WriteLine(year + " is a leap year.");
-                }
-                else
-                {
-                    Console.WriteLine(year + " is not a leap year.");
-                }
-            }
-        }
-
 
         public static void Excercise2()
         //Write a program in C# Sharp to read any Month Number in integer and display the number of days for this month.
@@ -108,22 +86,21 @@ namespace Lesson2
             {
                 Console.WriteLine("Enter a month number (from 1 to 12).");
                 int monthNumber = Convert.ToInt32(Console.ReadLine());
+                int daysInMonth = System.DateTime.DaysInMonth(2020, monthNumber);
 
-                switch (monthNumber)
+                if (daysInMonth >= 30)
                 {
-                    case 1: Console.WriteLine("Monday has 31 days."); break;
-                    case 2: Console.WriteLine("February has 28 days in common year and 29 days in leap year."); break;
-                    case 3: Console.WriteLine("March has 31 days."); break;
-                    case 4: Console.WriteLine("April has 30 days."); break;
-                    case 5: Console.WriteLine("May has 31 days."); break;
-                    case 6: Console.WriteLine("June has 30 days."); break;
-                    case 7: Console.WriteLine("July has 31 days."); break;
-                    case 8: Console.WriteLine("August has 31 days."); break;
-                    case 9: Console.WriteLine("September has 30 days."); break;
-                    case 10: Console.WriteLine("October has 31 days"); break;
-                    case 11: Console.WriteLine("November has 30 days"); break;
-                    case 12: Console.WriteLine("December has 31 days"); break;
-                    default: Console.WriteLine("Wrong month number"); break;
+                    int dayInMonth = System.DateTime.DaysInMonth(2020, monthNumber);
+                    Console.WriteLine(dayInMonth);
+                }
+                else if (daysInMonth < 30)
+                {
+                    int feb = System.DateTime.DaysInMonth(2020, monthNumber);
+                    Console.WriteLine(feb);
+                }
+                else
+                {
+                    Console.WriteLine("Wrong day number.");
                 }
             }
         }
@@ -179,6 +156,7 @@ namespace Lesson2
         public static void Excercise7()
         //Write a C# Sharp program that compares two dates given by the user in the console.
         {
+
             System.DateTime date1 = new System.DateTime(2015, 8, 1, 0, 0, 0);
             System.DateTime date2 = new System.DateTime(2015, 8, 1, 0, 0, 0);
 

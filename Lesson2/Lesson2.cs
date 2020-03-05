@@ -38,12 +38,12 @@ namespace Lesson2
 
             //DateTime.Excercise1();
             //DateTime.Excercise();
-            //DateTime.Excercise2();
+            DateTime.Excercise2();
             //DateTime.Excercise3();
             //DateTime.Excercise4();
             //DateTime.Excercise5();
             //DateTime.Excercise6();
-            DateTime.Excercise7();
+            //DateTime.Excercise7();
         }
 
     }

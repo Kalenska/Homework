@@ -36,7 +36,7 @@ namespace Lesson3
                 n = Convert.ToInt32(Console.ReadLine());
                 sum += n;
             }
-            avg = sum / 7;
+            avg = sum / 7.0;
             Console.WriteLine("The sum of the 7 numbers is: {0}", sum);
             Console.WriteLine("The Average is: {0}", avg);
 
@@ -127,8 +127,8 @@ namespace Lesson3
         }
 
 
-        public static void Exercise7()
-            //
+        public static void Exercise9()
+        //
         {
             int cols, rows;
             Console.Write("Input number of terms : ");
@@ -144,7 +144,7 @@ namespace Lesson3
             }
         }
 
-
+    }
 }
 
 

@@ -7,7 +7,7 @@ namespace Lesson3
         static void Main(string[] args)
         {
             //Loop.Exercise1();
-            //Loop.Exercise2();
+            Loop.Exercise2();
             //Loop.Exercise3();
             //Loop.Exercise4();
             //Loop.Exercise5();

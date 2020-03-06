@@ -6,7 +6,7 @@ namespace AdditionalTasks
     {
         static void Main(string[] args)
         {
-            Class1.Exercise1
+            Class1.Exercise1();
         }
     }
 }

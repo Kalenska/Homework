@@ -42,20 +42,15 @@ namespace AdditionalTasks
             Console.WriteLine("Customer IDNO: " + id);
             Console.WriteLine("Customer Name:  " + name);
             Console.WriteLine("Unit Consumed:  " + unit);
-            Console.WriteLine($"Amount Charges @Rs. {ratio} per unit:  " + surcharge);
+            Console.WriteLine($"Amount Charges @Rs. {ratio} per unit:  " + surcharge.ToString("F2"));
 
             if (unit > 400)
             {
                 add = surcharge * 0.15;
             }
-            Console.WriteLine("Surcharge Amount: " + add);
+            Console.WriteLine("Surcharge Amount: " + add.ToString("F2"));
             Console.WriteLine("Amount Paid by the user: " + (surcharge + add));
-
-
-
-
-
         }
     }
 }
-}
+

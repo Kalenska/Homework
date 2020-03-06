@@ -6,10 +6,14 @@ namespace Lesson3
     {
         static void Main(string[] args)
         {
-            //Loop.Excercise1();
-            //Loop.Excercise2();
-            //Loop.Excercise3();
-            Loop.Excercise4();
+            //Loop.Exercise1();
+            //Loop.Exercise2();
+            //Loop.Exercise3();
+            //Loop.Exercise4();
+            //Loop.Exercise5();
+            //Loop.Exercise6();
+            //Loop.Exercise7();
+
         }
     }
 }

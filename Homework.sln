@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson2", "Lesson2\Lesson2.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework2", "Homework2\Homework2.csproj", "{667C2C09-1936-4B1C-89D3-9E0AE1CAAF42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson3", "Lesson3\Lesson3.csproj", "{F5B66748-3F92-40C7-8631-55C4648EDE19}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson3", "Lesson3\Lesson3.csproj", "{F5B66748-3F92-40C7-8631-55C4648EDE19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdditionalTasks", "AdditionalTasks\AdditionalTasks.csproj", "{39A76A6F-C1BC-41FE-8255-49D53EBE5C37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{F5B66748-3F92-40C7-8631-55C4648EDE19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5B66748-3F92-40C7-8631-55C4648EDE19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5B66748-3F92-40C7-8631-55C4648EDE19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39A76A6F-C1BC-41FE-8255-49D53EBE5C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A76A6F-C1BC-41FE-8255-49D53EBE5C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A76A6F-C1BC-41FE-8255-49D53EBE5C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A76A6F-C1BC-41FE-8255-49D53EBE5C37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

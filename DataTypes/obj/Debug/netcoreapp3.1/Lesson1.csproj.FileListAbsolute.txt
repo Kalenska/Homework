@@ -1,6 +1,0 @@
-C:\Users\TechHuddle\Documents\GitHub\Kalenska_TechHuddle\DataTypes\DataTypes\bin\Debug\netcoreapp3.1\Lesson1.exe
-C:\Users\TechHuddle\Documents\GitHub\Kalenska_TechHuddle\DataTypes\DataTypes\obj\Debug\netcoreapp3.1\Lesson1.csprojAssemblyReference.cache
-C:\Users\TechHuddle\Documents\GitHub\Kalenska_TechHuddle\DataTypes\DataTypes\obj\Debug\netcoreapp3.1\Lesson1.AssemblyInfoInputs.cache
-C:\Users\TechHuddle\Documents\GitHub\Kalenska_TechHuddle\DataTypes\DataTypes\obj\Debug\netcoreapp3.1\Lesson1.AssemblyInfo.cs
-C:\Users\TechHuddle\Documents\GitHub\Kalenska_TechHuddle\DataTypes\DataTypes\obj\Debug\netcoreapp3.1\Lesson1.dll
-C:\Users\TechHuddle\Documents\GitHub\Kalenska_TechHuddle\DataTypes\DataTypes\obj\Debug\netcoreapp3.1\Lesson1.pdb

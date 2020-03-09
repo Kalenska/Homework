@@ -51,6 +51,32 @@ namespace AdditionalTasks
             Console.WriteLine("Surcharge Amount: " + add.ToString("F2"));
             Console.WriteLine("Amount Paid by the user: " + (surcharge + add));
         }
+
+
+        public static string UrlFormat(string url, string section, int id)
+        {
+
+            if (url.Contains("/section") && url.Contains("/id"))
+            {
+                url = url.Replace("section", section);
+                url = url.Replace("id", id + "");
+            }
+            else if (url.Contains("/section"))
+            {
+               url =  url.Replace("section", section);
+            }
+            else if (url.Contains("/id"))
+            {
+               url = url.Replace("id", id + "");
+            }
+            else
+            {
+                url = "Error.";
+            }
+
+            return url;
+        }
     }
 }
+
 

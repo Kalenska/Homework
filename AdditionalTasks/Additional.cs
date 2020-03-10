@@ -73,7 +73,29 @@ namespace AdditionalTasks
             {
                 url = "Error.";
             }
+            return url;
+        }
 
+        public static string UrlParamsFormat(string url, string section, int id)
+        {
+
+            if (url.Contains("=section") && url.Contains("=id"))
+            {
+                url = url.Replace("section", section);
+                url = url.Replace("id", id + "");
+            }
+            else if (url.Contains("=section"))
+            {
+                url = url.Replace("section", section);
+            }
+            else if (url.Contains("=id"))
+            {
+                url = url.Replace("id", id + "");
+            }
+            else
+            {
+                url = "Error.";
+            }
             return url;
         }
     }
